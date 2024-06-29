@@ -1,3 +1,3 @@
 Sovetkin Andrey
 
-frontend developer on Lenta.ru
+front-end developer at Rambler
