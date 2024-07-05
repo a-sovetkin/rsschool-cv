@@ -46,5 +46,9 @@
 "Продвинутые техники и инструменты вёрстки"
 
 ## Ключевые навыки
-Навыки JavaScript Git HTML5 HTML CSS3 Frontend Java Script
-Валидная верстка Кроссбраузерная верстка
+- JavaScript, TypeScript, HTML5,  
+- CSS3, BEM, SASS/LESS,
+- Slim, Pug
+- Git
+- SSR, PWA, оптимизации сайта, доступность
+
