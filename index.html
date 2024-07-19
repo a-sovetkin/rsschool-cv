@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>cv</title>
-
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-
+    <title>CV: Sovetkin Andrey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div classz="container">
+        <div class="container header-container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#about" class="nav-link">Контакты</a></li>
-                    <li class="nav-item"><a href="#experience" class="nav-link">Опыт работы</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Образование</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Курсы</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,64 +32,100 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="profile">
-                <p>
-                    <img src="./assets/photo.jpeg" class="photo" width="250" height="250" alt="фото Советкин Андрей">
-                </p>
+                <img src="./assets/photo.jpeg" class="photo" width="200" height="200" alt="photo Sovetkin Andrey">
+                <div class="contacts">
+                    <h1 class="section-title">Andrey Sovetkin</h1>
+                    <p>FRONTEND DEVELOPER</p>
+                    <p>Russia, Moscow</p>
+                    <p>full-time, part-time, project work, remote work</p>
+                    <p><a class="link" href="mailto:sovetkin@yandex.ru" target="_blank">sovetkin@yandex.ru</a></p>
+                </div>
             </section>
-            <section class="section" id="about">
-                <h1 class="section-title">Советкин Андрей</h1>
-                <p>Frontend-разработчик</p>
-                <p>Проживание: Москва</p>
-                <p>Специализация: программист, разработчик</p>
-                <p>Занятость: полная, частичная, проектная работа, стажировка</p>
-                <p>График работы: полный день, удаленная работа</p>
-                <p>Email: <a class="link" href="mailto:sovetkin@yandex.ru">sovetkin@yandex.ru</a></p>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>A novice developer with experience in software development. </p>
+                <p>Previously, worked as a Project Manager. I have deep knowledge in web development.</p>
+                <p>In my professional career, I have successfully implemented many projects, including the development of web applications and mobile applications. I know how to work in a team and have good communication skills.</p>
             </section>
+
             <section class="section" id="experience">
-                <h2 class="section-title">Опыт работы</h2>
-                <p>Май 2023 — настоящее время</p>
-                <p>Rambler&Co, Москва</p>
-                <p>Информационные технологии, системная интеграция, интернет</p>
-                <p>Должность: Frontend-разработчик</p>
-
-                <p>Обазанности</p>
-
-                <p>Работа над проектом - новостное издание Lenta.ru.</p>
+                <h2 class="section-title">Experience</h2>
+                <p>May 2023 — present</p>
+                <p>Rambler&Co, Moscow</p>
+                <p>Role: Frontend developer</p>
+                <p>Work on the project - news portal.</p>
+                <p>Responsibilities:</p>
                 <ul>
-                    <li>Разработка клиентской части проекта для desktop, pwa-mobile, amp-версии</li>
-                    <li>Сопровождение разработанных решений</li>
-                    <li>Взаимодействие с командой: backend-разработчики, тестировщик, менеджер, системный администратор, дизайнер</li>
-                    <li>Участие в code-review</li>
-                    <li>Оптимизация существующего кода, исправление ошибок</li>
-                    <li>Оценка и планирование сроков реализации задач</li>
+                    <li>Development of the client side of the project</li>
+                    <li>Support of the developed solutions (desktop, pwa-mobile, amp)</li>
+                    <li>Interaction with the team: backend, tester, manager, designer</li>
+                    <li>Participation in the code-review</li>
+                    <li>Optimization of existing code, error correction</li>
+                    <li>Assessment and planning of deadlines for the implementation of tasks</li>
                 </ul>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title">Образование</h2>
-                <p>Высшее</p>
-                <p>ВУЗ: 2007 Российский университет транспорта, Москва</p>
-                <p>Факультет: Вычислительной техники и автоматизированных систем</p>
-                <p>Специальность: Программное обеспечение вычислительной техники и автоматизированных систем</p>
+                <h2 class="section-title">Education</h2>
+                <p>Russian University of Transport, Moscow, 2007</p>
+                <p>Faculty: Computer technology and automated systems</p>
+                <p>Specialty: Computer engineering and automated systems software</p>
             </section>
             <section class="section" id="courses">
-                <h2 class="section-title">Повышение квалификации, курсы</h2>
+                <h2 class="section-title">Courses</h2>
                 <ul>
-                    <li>2024 RSSCHOOL JS/FE Pre-School 2024Q2</li>
-                    <li>2024 Курс «Computer Science во Frontend»</li>
-                    <li>2024 Алгоритмы и структуры данных, HTML Academy</li>
-                    <li>2024 Регулярные выражения для фронтендеров, HTML Academy</li>
-                    <li>2024 TypeScript, часть 1. Теория типов, HTML Academy</li>
-                    <li>2023 Курс "Старт в программировании" , HTML Academy, "Погружение в вёрстку", "Погружение в программирование на JavaScript", "Продвинутые техники и инструменты вёрстки"</li>
+                    <li>2024 RSSCHOOL JS/FE PreSchool 2024Q2</li>
+                    <li>2024 Computer Science Course at Frontend</li>
+                    <li>2024 Algorithms and Data structures, HTML Academy</li>
+                    <li>2024 Regular expressions for frontenders, HTML Academy</li>
+                    <li>2024 TypeScript, part 1. Type Theory, HTML Academy</li>
+                    <li>2023 Course "Start in programming" , HTML Academy, "Immersion in layout", "Immersion in JavaScript programming", "Advanced layout techniques and tools"</li>
                 </ul>
+                <p><a class="link" href="https://www.codewars.com/users/Sovetkin_A/completed_solutions" target="_blank">Educational projects</a></p>
             </section>
             <section class="section" id="skills">
-                <h2 class="section-title"></h2>
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>JavaScript, TypeScript, HTML5</li>
+                    <li>CSS3, BEM, SASS/LESS</li>
+                    <li>Slim, Pug</li>
+                    <li>Git</li>
+                    <li>SSR, PWA, site optimization, accessibility</li>
+                </ul>
             </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+function digPow(n, p){
+    let arr = String(n).split('');
+    let res = 0;
+    for (let i of arr) {
+        res += i**p;
+        p++;
+    }
+    return res % n ? -1: res / n;
+}
+                    </code>
+                </pre>
+            </section>
+
         </div>
     </main>
-
     <footer class="footer">
-        <div class="container">footer</div>
+        <div class="container footer-container">
+            <div>
+                <span class="copyright">© 2024</span>
+                <a class="link" href="https://github.com/a-sovetkin" target="_blank">a-sovetkin</a>
+            </div>
+            <div>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/rs_school.svg" alt="logo rs.school" height="30"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
