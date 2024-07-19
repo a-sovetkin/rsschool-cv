@@ -57,7 +57,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 10px 0 10px;
-    border: 1px solid black;
 }
 
 .section {
